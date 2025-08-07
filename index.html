@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Amine Zouane - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- ===== HERO ===== -->
+  <header class="hero" id="home">
+    <div class="container">
+      <h1>Mohammed Amine Zouane</h1>
+      <p class="tagline">Du code qui fonctionne, des images qui parlent, un design qui marque.</p>
+    </div>
+  </header>
+
+  <!-- ===== A PROPOS ===== -->
+  <section class="about" id="about">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2>À propos de moi</h2>
+        <p>
+          Développeur un peu geek sur les bords, vidéaste qui bidouille tout ce qui bouge,
+          et designer visuel avec une légère obsession pour les jolies interfaces. <br><br>
+          J’fais danser le code, je balance des idées sur l’écran, et parfois je me prends pour un sculpteur digital.
+          Franchement, créer, coder, shooter des vidéos : c’est juste ma manière de balancer des histoires à coup de pixels et d’imagination.
+        </p>
+      </div>
+      <div class="about-photo">
+        <img src="photo.jpg" alt="Photo de Mohammed Amine Zouane">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPETENCES ===== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Mes Compétences</h2>
+
+      <div class="skill-category">
+        <h3>👨‍💻 Développement</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>PHP</li>
+          <li>Python</li>
+          <li>Git</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>🎬 Montage Vidéo</h3>
+        <ul>
+          <li>Adobe Premiere Pro</li>
+          <li>CapCut</li>
+          <li>Montage TikTok</li>
+          <li>Montage des vidéos YouTube</li>
+        </ul>
+      </div>
+
+      <div class="skill-category">
+        <h3>🎨 Design</h3>
+        <ul>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Figma</li>
+          <li>Canva</li>
+          <li>UI/UX</li>
+          <li>Création de logos</li>
+          <li>Affiches</li>
+          <li>Miniatures YouTube</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+
+      <!-- Boutons rapides -->
+      <div class="quick-contact">
+        <a class="btn primary" href="mailto:mohammedaminezn10@gmail.com">
+          <i class="fa-solid fa-envelope"></i> Me contacter par mail
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/mohammed-amine-zouane-b99729316" target="_blank">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a class="btn" href="https://www.instagram.com/mohammedaminezn10/profilecard/?igsh=MWd0YXE2MHpwdmFyeA==" target="_blank">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+        <a class="btn" href="https://wa.me/+212669575850" target="_blank">
+          <i class="fa-brands fa-whatsapp"></i> WhatsApp
+        </a>
+      </div>
+
+      <!-- Formulaire -->
+      <div class="contact-grid">
+        <div id="form-message" class="form-message" style="display:none;"></div>
+        <form class="contact-form"
+              action="https://formspree.io/f/xblkpyap"
+              method="POST">
+          <div class="form-row">
+            <label>Nom
+              <input type="text" name="name" placeholder="Votre nom" required>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Email
+              <input type="email" name="email" placeholder="votre@email.com" required>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>Message
+              <textarea name="message" rows="5" placeholder="Votre message..." required></textarea>
+            </label>
+          </div>
+
+          <input type="text" name="_gotcha" style="display:none">
+          <input type="hidden" name="_subject" value="Nouveau message depuis le portfolio">
+          <input type="hidden" name="_replyto" value="mohammedaminezn10@gmail.com">
+
+          <button type="submit" class="btn primary">
+            <i class="fa-solid fa-paper-plane"></i> Envoyer
+          </button>
+        </form>
+
+        <div class="contact-note">
+          <h3>Disponible pour collaborations</h3>
+          <p>Dév, montage vidéo, design — je réponds vite et je m’adapte à votre besoin.</p>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Devis rapide</li>
+            <li><i class="fa-solid fa-check"></i> Livraison soignée</li>
+            <li><i class="fa-solid fa-check"></i> Communication claire</li>
+          </ul>
+          <p class="mini">Ou écris-moi directement : <a href="mailto:mohammedaminezn10@gmail.com">mohammedaminezn10@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
